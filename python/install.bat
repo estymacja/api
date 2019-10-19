@@ -1,6 +1,2 @@
-cd F:\PycharmProjects\estymacja-api
-py -m pip install --upgrade pip
-py -m pip install fastapi
-::py -m pip install pydantic
-py -m pip install uvicorn
-py -m pip install email-validator
+::## download https://www.python.org/ftp/python/3.8.0/python-3.8.0.exe
+python-3.8.0.exe InstallAllUsers=0 Include_launcher=0 Include_test=0 SimpleInstall=1 SimpleInstallDescription="Just for me, no test suite."

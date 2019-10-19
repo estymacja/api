@@ -2,7 +2,13 @@
 API dla wyliczeń
 
 ## install python
-    python/install.bat
+win
+
+    python\install.bat
+
+linux    
+
+    ./python/install.sh
     
 ## Start app    
     uvicorn main:app --reload
