@@ -10,6 +10,23 @@ class Item(BaseModel):
     is_offer: bool = None
 
 
+class User(BaseModel):
+    name: str
+    price: float
+    is_offer: bool = None
+
+
+class Task(BaseModel):
+    name: str
+    price: float
+    is_offer: bool = None
+
+
+class Projekt(BaseModel):
+    name: str
+    price: float
+    is_offer: bool = None
+
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
