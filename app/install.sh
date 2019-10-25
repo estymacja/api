@@ -1,4 +1,3 @@
-
 pip3 install --upgrade pip3
 pip3 install fastapi
 pip3 install uvicorn
