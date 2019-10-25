@@ -10,7 +10,16 @@ linux
 
     ./python/install.sh
     
-## Start app    
+## install python
+win
+
+    python\install.bat
+
+linux    
+
+    ./app/install.sh
+    
+## Start app 
     uvicorn main:app --reload
     
 ## Open in Browser    
