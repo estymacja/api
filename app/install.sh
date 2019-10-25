@@ -7,5 +7,4 @@ pip3 install --user --upgrade pip
 python3 -m pip install fastapi
 python3 -m pip install --user fastapi
 
-
 python3 -m pip install --user --upgrade pip
